@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    margin:0;
 }
 
 .header {
@@ -20,4 +21,15 @@ body, html {
     background-color: #0097d3;
     height :100%;
     
+}
+
+.article, .aside {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.section-paragragh  {
+    font-size: 1em;
 }
