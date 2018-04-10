@@ -33,8 +33,24 @@ body, html {
 
 .section-paragraph {
     font-size: 1em;
+    margin: 25px;
 }
 .footer {
     background-color: #4a4a4f;
     padding: 15px;
+}
+
+.column {
+    float: left;
+    
+}
+
+@media (min-width: 768px) {
+    .column-60 {
+        width: 60%;
+    }
+    
+    .column-40 {
+        width: 40%;
+    }
 }
